@@ -100,6 +100,7 @@ public class Ventana extends JDialog {
                     } else {
                         JOptionPane.showMessageDialog(null, "Error al Modificar persona");
                     }
+
                     limpiar();
                     con.close();
 

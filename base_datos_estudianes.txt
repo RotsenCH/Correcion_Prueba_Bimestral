@@ -1,0 +1,14 @@
+Create Database Estudiantes;
+
+Use Estudiantes;
+
+Create Table Datos(
+	Nombre VARCHAR(20) not NULL,
+    Apellido VARCHAR(20) not NULL,
+    Cedula VARCHAR(10) not NULL,
+    Genero VARCHAR(20) not NULL,
+    Celular VARCHAR(10) not NULL,
+    Edad VARCHAR(2) not NULL
+);
+
+Select * From Datos;

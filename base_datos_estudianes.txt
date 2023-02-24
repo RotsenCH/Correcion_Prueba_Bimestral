@@ -8,7 +8,30 @@ Create Table Datos(
     Cedula VARCHAR(10) not NULL,
     Genero VARCHAR(20) not NULL,
     Celular VARCHAR(10) not NULL,
-    Edad VARCHAR(2) not NULL
+    Carrera VARCHAR(5) not NULL
 );
 
+Create Table Carrera_ComboBox(
+	Nombre_Carrera VARCHAR(5) not NULL
+);
+
+Create Table Generos_ComboBox(
+	Sexo VARCHAR(20) not NULL
+);
+
+INSERT INTO datos (nombre, apellido, cedula, genero, celular, carrera) VALUES('Néstor','Chumania','1751354422','Masculino','0991155259','TSDS');
+INSERT INTO datos (nombre, apellido, cedula, genero, celular, carrera) VALUES('Katty ','Ortiz','175135433','Femenino','0991155258','TSASA') ;
+
+INSERT INTO Generos_ComboBox (Sexo) value ('Masculino');
+INSERT INTO Generos_ComboBox (Sexo) value ('Femenino');
+
+INSERT INTO Carrera_ComboBox (Nombre_Carrera) value ('TSDS');
+INSERT INTO Carrera_ComboBox (Nombre_Carrera) value ('TSASA');
+INSERT INTO Carrera_ComboBox (Nombre_Carrera) value ('TSEM');
+INSERT INTO Carrera_ComboBox (Nombre_Carrera) value ('TSRT');
+INSERT INTO Carrera_ComboBox (Nombre_Carrera) value ('TSPA');
+INSERT INTO Carrera_ComboBox (Nombre_Carrera) value ('TSPIM');
+
 Select * From Datos;
+Select * From Generos_ComboBox;
+Select * From Carrera_ComboBox;

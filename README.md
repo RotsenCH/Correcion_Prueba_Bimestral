@@ -4,7 +4,7 @@
 </p>
 </div>
 
-# Correcion_Prueba_Bimestral
+# Correcion de la Prueba Bimestral
 
 + Néstor Chumania
 
